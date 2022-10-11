@@ -8,15 +8,19 @@ package week6hwdhara;
 import java.util.Scanner;
 
 public class Binary2Numbers17 {
-    public static void Binary2(){
-       //String S1 = "5";
-      // int binary = Integer.parseInt(S1);
-        int S1 = 5;
-       String bin = Integer.toBinaryString(S1);
+    public static void Binary2() {
+        //String S1 = "5";
+        // int binary = Integer.parseInt(S1);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter Decimal number: ");
+        int S1 =scan.nextInt();
+        String bin = Integer.toBinaryString(S1);
         System.out.println("Binary number: " + bin);
+        scan.close();
     }
+
     public static void main(String[] args) {
-    Binary2();
+        Binary2();
     }
 
 
